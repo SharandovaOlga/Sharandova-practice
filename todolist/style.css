@@ -1,7 +1,7 @@
 body {
-	background: #2396aa;
+	background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613714137_1-p-derevyannii-fon-dlya-prezentatsii-1.jpg);
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Times New Roman', sans-serif;
 }
 
 .intro {
@@ -10,28 +10,30 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	color: #a5e4b4;
 	text-transform: uppercase;
 	font-weight: 800;
+	font-size: 50px;
 }
 
 p {
-	font-weight: 600;
+	font-weight: 800;
+	font-size: 25px;
 }
 
 #first {
-	margin-top: 10px;
-	color: #FFCD5D;
+	margin-top: 20px;
+	color: #e4fa81;
 }
 
 #second {
-	color: #f0f339;
+	color: #e4fa81;
 
 }
 
 #third {
-	color: #ffb922;
-	margin-bottom: 30px;
+	color: #e4fa81;
+	margin-bottom: 50px;
 }
 
 
@@ -39,8 +41,8 @@ p {
 	border: none;
 	padding: 5px 15px;
 	border-radius: 5px;
-	color: #04A1BF;
-	background-color: #025F70;
+	color: #55350c;
+	background-color: #08ff8c;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.75s ease;
 	-moz-transition: all 0.75s ease;
@@ -50,7 +52,7 @@ p {
 }
 
 #enter:hover{
-	background-color: #02798F;
+	background-color: #fd8080;
 	color: #FFCD5D;
 }
 
@@ -63,13 +65,13 @@ ul {
 li {
 	list-style: none;
 	padding: 10px 20px;
-	color: #ffffff;
+	color: #15b800;
 	text-transform: capitalize;
 	font-weight: 600;
-	border: 2px solid #025f70;
+	border: 2px solid #5a3925;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	background: #4EB9CD;
+	background: #fdff88;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -78,7 +80,8 @@ li {
 }
 
 li:hover {
-	background: #177f94;
+	background: #fd8080;
+	color: #FFCD5D;
 }
 
 li > button {
@@ -86,7 +89,7 @@ li > button {
 	background: none;
 	border: none;
 	float: right;
-	color: #096155;
+	color: #589c18;
 	font-weight: 800;
 }
 
@@ -99,8 +102,8 @@ input {
 
 
 .done {
-	background: #1cb141 !important;
-	color: #fdfdfd;
+	background: #9fc48e !important;
+	color: #662e00;
 }
 
 .delete {
