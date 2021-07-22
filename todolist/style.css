@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 25px;
 }
 
@@ -35,7 +35,6 @@ p {
 	color: #e4fa81;
 	margin-bottom: 50px;
 }
-
 
 #enter {
 	border: none;
@@ -60,7 +59,6 @@ ul {
 	text-align: left;
 	margin-top: 20px;
 }
-
 
 li {
 	list-style: none;
@@ -100,7 +98,6 @@ input {
 	border: none;
 }
 
-
 .done {
 	background: #9fc48e !important;
 	color: #662e00;
@@ -109,3 +106,53 @@ input {
 .delete {
 	display: none;
 }
+/*Фон при всплывающем окне*/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  display: none; }
+
+/*Всплывающее окно*/
+.popup {
+  border-radius: 20px;
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #d1f842;
+  color: #791f1f; }
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer; }
+
+.close-popup:before {/*Крестик*/
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  left: -4px;
+  transform: rotate(-45deg); }
+
+.close-popup:after {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  transform: rotate(45deg);
+  left: -4px; }
